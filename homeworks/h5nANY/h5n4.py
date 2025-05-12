@@ -1,7 +1,7 @@
 import some_library
 
 try:
-    some_libary.some_function()
-    some_libary.notexisting_function()
+    some_library.some_function()
+    some_library.notexisting_function()
 except AttributeError:
     print("Функція не знайдена")
