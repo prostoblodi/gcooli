@@ -1,4 +1,4 @@
-import some_libary
+import some_library
 
 try:
     some_libary.some_function()
