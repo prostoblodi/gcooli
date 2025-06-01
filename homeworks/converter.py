@@ -20,6 +20,7 @@ class CurrencyConverterApp:
     def __init__(self):
         self.converter = CurrencyConverter()
         self.window = Tk()
+        self.window.geometry("300x100")
         self.window.title("Конвертер Валюти")
 
         self.label_input = Label(self.window, text="Сума у EUR:")
