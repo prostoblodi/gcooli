@@ -1,4 +1,6 @@
 import sqlite3
+import time
+
 import requests
 from bs4 import BeautifulSoup
 import datetime
@@ -27,3 +29,6 @@ connection.commit()
 connection.close()
 
 temperature_record()
+while True:
+    time.sleep(30*60)
+    temperature_record()
